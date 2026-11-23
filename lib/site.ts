@@ -3,26 +3,26 @@
 // ─────────────────────────────────────────────────────────────
 
 export const site = {
-  url: "https://www.orazed.org", // ← بدون / في الآخر
+  url: "https://www.orazed.net", // ← بدون / في الآخر
   agency: "Grandeur Spaces",
 
-  phoneIntl: "+201030083122",
-  phoneDisplay: "01030083122",
-  whatsapp: "201030083122",
+  phoneIntl: "+201277707799",
+  phoneDisplay: "01277707799",
+  whatsapp: "201277707799",
   email: "leads@orazed.org",
 
   web3forms: process.env.NEXT_PUBLIC_WEB3FORMS_KEY || "0c24e560-4880-487d-a436-d00d678d8204",
 
   // Google Ads
-  gtag: "AW-18580466474",
+  gtag: "",
   conv: {
-    form: "AW-18580466474/FGMYCPmqh7sdEKrW7ZtF",
-    whatsapp: "AW-18580466474/ahbvCPyqh7sdEKrW7ZtF",
-    call: "AW-18580466474/knk4CP-qh7sdEKrW7ZtF",
+    form: "",
+    whatsapp: "",
+    call: "",
   },
 
   // Google Tag Manager (اختياري — سيبه فاضي لو مش محتاجه)
-  gtm: "GTM-PVT6Q7L6",
+  gtm: "",
 
   agencyCredit: { name: "One Click", url: "" },
 } as const;
