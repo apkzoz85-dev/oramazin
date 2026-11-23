@@ -11,7 +11,7 @@ export const site = {
   whatsapp: "201277707799",
   email: "leads@orazed.org",
 
-  web3forms: process.env.NEXT_PUBLIC_WEB3FORMS_KEY || "0c24e560-4880-487d-a436-d00d678d8204",
+  web3forms: process.env.NEXT_PUBLIC_WEB3FORMS_KEY || "f32b5f2a-7f7f-4e45-bafc-39a7fea3e25a",
 
   // Google Ads
   gtag: "",
